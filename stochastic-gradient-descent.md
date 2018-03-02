@@ -5,7 +5,7 @@ This is where the idea of Stochastic Gradient Descent (SGD) comes up. The idea i
 
 We'll label those random training inputs X1,X2,…,Xm, and refer to them as a mini-batch. This is provided the sample size m is large enough that the average value will be roughly same as average value over all inputs. 
 
-∇C≈1m∑j=1m∇CXj
+∇C≈1/m∑j=1/m∇CXj
 
 confirming that we can estimate the overall gradient by computing gradients just for the randomly chosen mini-batch.
 
