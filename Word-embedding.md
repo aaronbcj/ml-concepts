@@ -1,10 +1,17 @@
-Different applications of NLP like machine translation, parsing, sentiment analysis deals with words and sentences. All of these would require some vector representation of each word. One obvious option could be to represent each word using one-hot encoding, but then it leads to a different problem. If you vocabulary contains 50,000 words then each word will be represented by a 50,000 dimensional vector with only one entry being 1. 
+Neural Networks work on feature vectors which have finite values (binary or real numbers between 0 and 1 or numbers in a given range like [0,255] for grayscale image). Now when it comes to dealing with text or words we need to transform them as well in some form of vector. 
 
-word(i) = Transpose of {0, 0 , 0 , 0, 1, 0, 0, ..... 0}
+Different applications of NLP like machine translation, parsing, sentiment analysis deals with words. This would require some vector representation of each word. One obvious option could be to represent each word using one-hot encoding, but then it leads to a different problem. If you vocabulary contains 50,000 words then each word will be represented by a 50,000 dimensional vector. 
+
+word(i) = Transpose of [0, 0 , 0 , 0, 1, 0, 0, ..... 0]
 
 Such a large vocab with sparse representation is going to be quite in-efficient. 
 
-Neural Network (or Deep Networks) work on feature vectors which have finite values (binary or real numbers between 0 and 1 or numbers in a given range like [0,255]). Image will use pixel values as the feature vector. Now when it comes to dealing with text or words we need to transform them as well in some form of vector.  The vector for each word is a semantic description of how that word is used in context, so two words that are used similarly in text will get similar vector represenations. Once you map words into vector space, you can then use vector math to find words that have similar semantics.
+One obvious solution would be to represent each word in the vocab using a small and dense vector of say manageable dimension like 500. This technique is called as embedding. Apply some magic sauce so it groups similar meaning words together. This means that similar meaning or intent words will be part of the same cluster or closer to one another. 
+
+For example - *I drink milk* is a valid sentence and if the embedding model knows that milk is closer to water then it will know that *I drink water* is also a valid sentence. 
+
+The vector for each word is a semantic description of how that word is used in context, so two words that are used similarly in text will get similar vector represenations. Once you map words into vector space, you can then use vector math to find words that have similar semantics.
+ 
 
 ### Vector Representation of Words
 This model is used for learning vector representations of words, called "word embeddings".
