@@ -1,4 +1,4 @@
-Neural Networks work on feature vectors which have finite values (binary or real numbers between 0 and 1 or numbers in a given range like [0,255] for grayscale image). Now when it comes to dealing with text or words we need to transform them as well in some form of vector. 
+Neural Networks work on *feature vectors* of type integer, float or binary i.e. they deal with numbers. Now when it comes to dealing with text or words we need to transform them as well in some form of similar feature vector. 
 
 Different applications of NLP like machine translation, parsing, sentiment analysis deals with words. This would require some vector representation of each word. One obvious option could be to represent each word using one-hot encoding, but then it leads to a different problem. If you vocabulary contains 50,000 words then each word will be represented by a 50,000 dimensional vector. 
 
