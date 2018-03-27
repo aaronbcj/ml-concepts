@@ -1,6 +1,6 @@
-Neural Networks work on *feature vectors* of type integer, float or binary i.e. they deal with numbers. Now when it comes to dealing with text or words we need to transform them as well in some form of similar feature vector. 
+Neural Networks work on **feature vectors** of type integer, float or binary i.e. they deal with numbers. Now when it comes to dealing with text or words we need to transform them as well in some form of similar feature vector. 
 
-Different applications of NLP like machine translation, parsing, sentiment analysis deals with words. This would require some vector representation of each word. One obvious option could be to represent each word using one-hot encoding, but then it leads to a different problem. If you vocabulary contains 50,000 words then each word will be represented by a 50,000 dimensional vector. 
+Different applications of NLP like machine translation, parsing, sentiment analysis deals with words. This would require some vector representation of each word. One obvious option could be to represent each word using **One-Hot Encoding**; but then it leads to a different problem. If you vocabulary contains 50,000 words then each word will be represented by a 50,000 dimensional vector. 
 
 word(i) = Transpose of [0, 0 , 0 , 0, 1, 0, 0, ..... 0]
 
