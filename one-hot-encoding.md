@@ -29,4 +29,4 @@ Use one bit position to represent one option
 0001 - Angelina Jolie
 ```
 
-### Option 2 is known as ONE-HOT ENCODING. 
+**Option 2 is known as ONE-HOT ENCODING.**
