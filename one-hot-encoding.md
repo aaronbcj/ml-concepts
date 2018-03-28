@@ -6,7 +6,8 @@ Categorical data is data that takes only a limited number of values.
 Some examples enclude:
 - Like which is your favourite actor among: Tom Hanks, Al Pacino, Robert De Niro and Angelina Jolie.
 - Classify images into either CAT, DOG, or TIGER
-- Color variables with values as RED, GREE, BLUE, BLACK, ORANGE etc. 
+- Color variables with values as RED, GREE, BLUE, BLACK, ORANGE etc.
+- Dictionary of top 5000 words found on wikipedia
 
 We need to encode 4 options to some binary representation if you want to apply some ML/DL algorithm. 
 
