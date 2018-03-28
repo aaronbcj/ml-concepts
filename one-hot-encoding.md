@@ -9,16 +9,20 @@ We need to encode 4 options to some binary representation if you want to apply s
 
 ### Option 1
 4 options can be represented by 2 bits (coz 2^2 = 4)
+```
 00 - Tom Hanks
 01 - Al Pacino
 10 - Robert De Niro
 11 - Angelina Jolie
+```
 
 ### Option 2
 Use one bit position to represent one option
+```
 1000 - Tom Hanks
 0100 - Al Pacino
 0010 - Robert De Niro
 0001 - Angelina Jolie
+```
 
 ### Option 2 is known as ONE-HOT ENCODING. 
