@@ -30,3 +30,7 @@ Use one bit position to represent one option
 ```
 
 **Option 2 is known as ONE-HOT ENCODING.**
+
+
+### References
+https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding
