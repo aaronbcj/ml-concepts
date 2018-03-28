@@ -38,3 +38,4 @@ The binary variables are often called **dummy variables** in other fields, such 
 
 ### References
 https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding
+https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
