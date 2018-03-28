@@ -7,7 +7,11 @@ Assume that you have a field which can take 4 possible values. It could be as tr
 
 We need to encode 4 options to some binary representation if you want to apply some ML/DL algorithm. 
 
-### Option 1
+
+### Binary Representation (Encoding) of Categorical Data
+Let explore how can we encode categorical values into binary format. 
+
+#### Option 1
 4 options can be represented by 2 bits (coz 2^2 = 4)
 ```
 00 - Tom Hanks
@@ -16,7 +20,7 @@ We need to encode 4 options to some binary representation if you want to apply s
 11 - Angelina Jolie
 ```
 
-### Option 2
+#### Option 2
 Use one bit position to represent one option
 ```
 1000 - Tom Hanks
