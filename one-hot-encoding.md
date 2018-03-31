@@ -27,6 +27,8 @@ Let explore how can we encode categorical values into binary format.
 ```
 
 #### Option 2: ONE-HOT Encoding
+One-hot representation is a representation method in which only one element is 1 and the other elements are 0 in the vector. By setting 1 or 0 for each dimension, it represents “that word or not”.
+
 Use one bit position to represent one option
 ```
 1000 - Tom Hanks
