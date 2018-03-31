@@ -9,15 +9,13 @@ Some examples enclude:
 - Color variables with values as RED, GREE, BLUE, BLACK, ORANGE etc.
 - Dictionary of top 5000 words found on wikipedia
 
-We need to encode 4 options to some binary representation if you want to apply some ML/DL algorithm. 
-
 Many machine learning (specially Deep Learning) algorithms cannot operate on label data directly. They require all input variables and output variables to be numeric. This means that categorical data must be converted to a numerical form. If the categorical variable is an output variable, you may also want to convert predictions by the model back into a categorical form in order to present them or use them in some application.
 
 ### Binary Representation (Encoding) of Categorical Data
 Let explore how can we encode categorical values into binary format. 
 
 #### Option 1: Integer Encoding
-4 options can be represented by 2 bits (coz 2^2 = 4). So each option is assigned an integer value and the binary representation of integer value is the encoded value. 
+If there are 4 possible values of a category then it can be represented by 2 bits (coz 2^2 = 4). So each option is assigned an integer value and the binary representation of integer value is the encoded value. 
 
 ```
 00 - Tom Hanks
