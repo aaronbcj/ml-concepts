@@ -1,4 +1,4 @@
-In Machine Learning and Deep Learning you might come across a feature or field having finite labeled values. One hot encoding is a process by which categorical values get encoded into binary values. 
+Machine learning mostly deals with scalar values either in form of vector or matrix. Now, what if you have a feature or field in your dataset which has finite labelled values. Such **categorical values** are usually finite so it needs to be encoded into binary format. This post talks about different binary encoding techniques. 
 
 ### What is Categorical data?
 Categorical data is data that takes only a limited number of values.
