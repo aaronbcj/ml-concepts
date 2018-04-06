@@ -1,14 +1,14 @@
-Machine learning mostly deals with scalar values either in form of vector or matrix. Now, what if you have a feature or field in your dataset which has finite labelled values. Such **categorical values** are usually finite so it needs to be encoded into binary format. Take case of Natural Language Processing which deals only with text; you we want to apply Machine learning techniques then words need to be encoded. 
+Machine learning mostly deals with scalar values either in form of vector or matrix. Now, what if you have a feature or field in your dataset which has finite labelled values. Such **categorical values** are usually finite so it needs to be encoded into binary format. Take case of Natural Language Processing which deals only with text; if we want to apply Machine learning techniques then words need to be encoded. 
 
 This post talks about different binary encoding techniques. 
 
 ### What is Categorical data?
 Categorical data is data that takes only a limited number of values.
 
-Some examples enclude:
-- Like which is your favourite actor among: Tom Hanks, Al Pacino, Robert De Niro and Angelina Jolie.
+Some examples:
+- Which is your favourite actor among: Tom Hanks, Al Pacino, Robert De Niro and Angelina Jolie (tough one :D, right?)
 - Classify images into either CAT, DOG, or TIGER
-- Color variables with values as RED, GREE, BLUE, BLACK, ORANGE etc.
+- Feature having values as colors such as RED, GREE, BLUE, BLACK, ORANGE etc.
 - Dictionary of top 5000 words found on wikipedia
 
 Many machine learning (specially Deep Learning) algorithms cannot operate on label data directly. They require all input variables and output variables to be numeric. This means that categorical data must be converted to a numerical form. If the categorical variable is an output variable, you may also want to convert predictions by the model back into a categorical form in order to present them or use them in some application.
